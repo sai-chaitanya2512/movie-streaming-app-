@@ -1,0 +1,36 @@
+@import "./fonts.css";
+.title
+{
+    color: white;
+    font-family: netflix;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.posters-row
+{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+.posters-row::-webkit-scrollbar
+{
+    display: none;
+}
+.poster
+{
+    object-fit: contain;
+    width: 100%;    
+    max-width: 200px;
+    transition: transform 450ms;
+    margin-right:10px;
+    cursor: pointer;
+}
+.poster:hover
+{
+    transform: scale(1.08);
+    /* transition: 0.2s linear; */
+}

@@ -1,0 +1,35 @@
+.nav
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 1;
+    transition: all 0.1s ease-in;
+}
+
+.nav-black
+{
+    background-color: #111;
+    
+}
+
+.netflix-logo
+{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+
+}
+.netflix-account-logo
+{
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+}
